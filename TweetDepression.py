@@ -5,8 +5,8 @@ from datetime import datetime
 import time
 
 #Initialize
-auth = tweepy.OAuthHandler("SCjKQj1bEBRjf57hTMZ64kfhK", "RbkC3za5dxbPAhiDuUImWVWamQZjajaOe6WHkNI5o4zX7V5Vr7")
-auth.set_access_token("1239000319683465216-PydYhld8VSZr9j7uAgBxrZzDz3ZRUM", "Xzu3CsYE5GndurmlfqEUW1JfAfBThM2XiiNifo1W48qWR")
+auth = tweepy.OAuthHandler("API Key", "Private API Key")
+auth.set_access_token("AUTH Key", "Private AUTH Key")
 api = tweepy.API(auth)
 tweetlist = open('Depression.txt')
 
