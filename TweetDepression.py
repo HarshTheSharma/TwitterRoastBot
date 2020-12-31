@@ -12,9 +12,6 @@ tweetlist = open('Depression.txt')
 
 #Loop
 while True:
-    now = datetime.now()
-    current_time = now.strftime("%H:%M")
-    if current_time == "12:00":
-        tweet = tweetlist.readline()
-        api.update_status("@HarshTheSharma " + tweet)
-        time.sleep(86400)
+    tweet = tweetlist.readline()
+    api.update_status("@HarshTheSharma " + tweet)
+    time.sleep(86400)
