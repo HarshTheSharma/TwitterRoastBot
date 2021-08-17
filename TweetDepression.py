@@ -13,5 +13,5 @@ tweetlist = open('Depression.txt')
 #Loop
 while True:
     tweet = tweetlist.readline()
-    api.update_status("@HarshTheSharma " + tweet)
+    api.update_status("@{target} " + tweet)
     time.sleep(86400)
