@@ -7,7 +7,7 @@ import time
 auth = tweepy.OAuthHandler("API Key", "Private API Key")
 auth.set_access_token("AUTH Key", "Private AUTH Key")
 api = tweepy.API(auth)
-tweetlist = open('tweetlist.txt')
+tweetlist = open('TweetList.txt')
 
 #Loop
 while True:
