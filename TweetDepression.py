@@ -1,4 +1,3 @@
-#Copyright 2021 HarshTheSharma
 #Imports
 import tweepy
 from datetime import datetime
